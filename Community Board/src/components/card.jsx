@@ -8,7 +8,7 @@ const Card = (props) =>{
             </div>
             <h3>{props.language_name}</h3>
             <p>{props.description}</p>
-            <a href = {props.link}><button>Read More</button></a>
+            <a href = {props.link} target = "_blank"><button>Read More</button></a>
         </span>
     )
 }
